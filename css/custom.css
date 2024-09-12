@@ -1,6 +1,15 @@
 /***** 
 COLOR CHEAT SHEET 
-
+https://coolors.co/800016-a0001c-c00021-ff002b-ffffff-407ba7-004e89-002962-00043a
+800016- maroon
+a0001c- scarlet red
+c00021- fire brick red
+ff002b- brightest red
+ffffff- white
+407ba7- lighter blue
+004e89- deeper blue
+002962- navy blue
+00043a- darkest navy
 
 *****/
 
@@ -9,9 +18,19 @@ COLOR CHEAT SHEET
 /******* FONTS ******/
 /********************/
 body, p {
+    font-family: "Playpen Sans", cursive;
 
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: "Protest Guerrilla", sans-serif;
 
 }
+
+/********************/
+/******* HERO ******/
+/********************/
+header.masthead {
+    background-image: url('../img/bg.jpeg');
+}
+
