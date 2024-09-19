@@ -10,6 +10,7 @@ ffffff- white
 004e89- deeper blue
 002962- navy blue
 00043a- darkest navy
+2d5767- aqua
 
 *****/
 
@@ -38,3 +39,21 @@ header.masthead {
 /********************/
 /******* COLORS ******/
 /********************/
+
+
+
+hr.divider {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.bg-primary {
+    background-color: #2d5767 !important;
+}
+
+
+/********************/
+/******* NAV ******/
+/********************/
+#mainNav.navbar-shrink {
+    background-color: #fff;
+}
