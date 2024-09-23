@@ -23,7 +23,8 @@ body, p {
 
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "Protest Guerrilla", sans-serif;
 
 }
@@ -39,7 +40,10 @@ header.masthead {
 /********************/
 /******* COLORS ******/
 /********************/
-
+.text-primary {
+        color: #c00021 !important;
+    }
+}
 
 
 hr.divider {
