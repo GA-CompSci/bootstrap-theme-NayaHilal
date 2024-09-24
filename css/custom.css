@@ -18,13 +18,24 @@ ffffff- white
 /********************/
 /******* FONTS ******/
 /********************/
-body, p {
+body,
+p {
     font-family: "Playpen Sans", cursive;
 
 }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
     font-family: "Protest Guerrilla", sans-serif;
 
 }
@@ -35,16 +46,44 @@ h1, h2, h3, h4, h5, h6,
 header.masthead {
     background-image: url('../img/bg.jpeg');
 }
-
+header.masthead h1 {
+    color: #ffffff;    
+}
+header.masthead p {
+   font-size: 50px;  
+}
+body {
+    color: #ffffff;
+}
+.btn-primary {
+    background-color: #004e89;
+}
+.btn-primary:hover, .btn-primary:active {
+    background-color: #2f71a3;
+}
 
 /********************/
 /******* COLORS ******/
 /********************/
 .text-primary {
-        color: #c00021 !important;
-    }
+    color: #c00021 !important;
+}
+.text-primary {
+    color: #c00021 !important;
 }
 
+hr.divider {
+    background-color: #c00021;
+}
+
+hr.divider {
+    background-color: #ffffff;
+}
+
+#mainNav.navbar-shrink {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+}
 
 hr.divider {
     background-color: hsl(0, 0%, 100%);
@@ -53,11 +92,21 @@ hr.divider {
 .bg-primary {
     background-color: #2d5767 !important;
 }
-
+/********************/
+/******* CRITERIA ******/
+/********************/
+#services .h4 {
+    color: #c00021 !important;
+}
 
 /********************/
 /******* NAV ******/
 /********************/
 #mainNav.navbar-shrink {
     background-color: #fff;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #c00021 !important;
 }
