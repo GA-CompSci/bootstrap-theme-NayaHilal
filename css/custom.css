@@ -11,7 +11,8 @@ ffffff- white
 002962- navy blue
 00043a- darkest navy
 2d5767- aqua
-
+447da9 - sky blue
+2d5767 - ocean blue
 *****/
 
 
@@ -92,6 +93,7 @@ hr.divider {
 .bg-primary {
     background-color: #2d5767 !important;
 }
+
 /********************/
 /******* CRITERIA ******/
 /********************/
@@ -107,6 +109,7 @@ hr.divider {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
-#mainNav .navbar-nav .nav-item .nav-link:hover {
+#mainNav .navbar-nav .nav-item .nav-link:hover,
+#mainNav.navbar-shrink .navbar-brand:hover {
     color: #c00021 !important;
 }
