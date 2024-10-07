@@ -132,3 +132,10 @@ hr.divider {
 #portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
     background: #2d5767cb;
 }
+
+/********************/
+/******* 3 WORST RIDES ******/
+/********************/
+body {
+    color: #2f586a;
+}
