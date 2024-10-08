@@ -52,6 +52,7 @@ header.masthead h1 {
 }
 header.masthead p {
    font-size: 50px;  
+   color: rgb(255, 255, 255);
 }
 body {
     color: #ffffff;
@@ -62,6 +63,8 @@ body {
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
     background-color: #3d6372 !important;
 }
+
+
 
 /********************/
 /******* COLORS ******/
@@ -93,6 +96,16 @@ hr.divider {
 .bg-primary {
     background-color: #2f586a !important;
 }
+
+.carousel-caption {
+    color: #fff;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 10px; /* Adds space around the text */
+    border-radius: 5px; /* Optional: Rounds the corners of the background */
+}
+
+
 
 /********************/
 /******* CRITERIA ******/
@@ -133,9 +146,23 @@ hr.divider {
     background: #2d5767cb;
 }
 
+#mainNav .navbar-brand {
+    color: rgba(255, 255, 255, -3.3);
+}
+
 /********************/
 /******* 3 WORST RIDES ******/
 /********************/
 body {
     color: #2f586a;
+}
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #2f586a !important;
+}
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: #2f586a !important;
 }
