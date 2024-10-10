@@ -21,7 +21,7 @@ ffffff- white
 /********************/
 body,
 p {
-    font-family: "Playpen Sans", cursive;
+    font-family: "Montserrat", sans-serif;
 
 }
 
@@ -119,13 +119,16 @@ hr.divider {
 /********************/
 #mainNav.navbar-shrink {
     background-color: #fff;
+    font-family: "Montserrat", sans-serif;
 }
 
 #mainNav.navbar-shrink .navbar-brand {
     color: #ffffff;
+    font-family: "Montserrat", sans-serif;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
     color: #ffffff !important;
+    font-family: "Montserrat", sans-serif;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover,
@@ -165,4 +168,12 @@ body {
 .bg-dark {
     --bs-bg-opacity: 1;
     background-color: #2f586a !important;
+}
+
+
+/********************/
+/******* FOOTER ******/
+/********************/
+.bg-primary {
+    background-color: rgb(47, 88, 106) !important;
 }
